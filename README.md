@@ -1,1 +1,5 @@
 # Adapative_StepSize_AdaptiveConformalnference
+
+\forceindent For the final project of STAT 27850/30850, our group chose the theory option, focusing on understanding and expanding upon “Adaptive conformal inference under distribution shift” by Gibbs and Candes. First, we will provide a summary of the paper and how it modifies conformal prediction theory to accommodate for shifts in covariate distribution, all in a distribution-free way. Then, we take a closer look at the stepwise search the authors use in constructing adaptive conformal inference. The constant step size introduces a trade-off between adaptability and stability, so we experiment with an adaptive step size and compare coverage results with that of the constant step size. 
+
+\forceindent We also explore the method's applications to data in addition to its theory, with a particular interest in features typically seen in real-world scenarios but may challenge the ACI method. Specifically, we am interested in data sets that behave cyclically or exhibit sudden shocks. We simulate data sets with these features and run both the adaptive and constant step ACI methods.      
